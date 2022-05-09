@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pacientes</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <h1>Administración de citas</h1>
+        <ul class="menu-box">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./paciente.html">Pacientes</a></li>
+            <li><a href="./administracion.html">Administración</a></li>
+        </ul>
+    </header>
+    <section class="main">
+      <form class="formulario" id="formulario">
+          <h1>Formulario</h1>
+           <div class="formulario-content">
+               <label for="nombre">Nombre</label>
+               <br>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <br>
+                <label for="telefono">Teléfono</label>
+                <br>
+                <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
+                <br>
+                <label for="fecha">Fecha</label>
+                <br>
+                <input type="date" name="fecha" id="fecha" placeholder="Fecha">
+                <br>
+                <label for="sintomas">Sintomas</label>
+                <br>
+                <textarea name="sintomas" id="sintomas"placeholder="Sintomas del paciente"></textarea>
+                <br>
+                <input type="hidden" name="id" id="id" value="">
+                <input type="submit" value="Guardar Cambios">
+            </div>
+      </form>
+    </section>
+    <footer>
+        <p>Derechos reservados</p>
+    </footer>
+    <script src="./js/editarcliente.js" type="module"></script>
+</body>
+</html>
