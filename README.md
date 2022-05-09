@@ -10,7 +10,9 @@ Aqui se mostrara la parte FrontEND asi la conexión a la API para hacer un CRUD
 <img src="https://user-images.githubusercontent.com/33709574/167509245-074e8361-d59d-4634-9dd4-5ce3fe1026b4.png">
 <br>
 <h1>citas_medicas Backend</h1>
-<p>En esta parte se vera las conexiones CRUD API</p>
+<p>En esta parte se vera las conexiones CRUD API mas informacion de la API creada asi como la base de datos
+<a href="https://github.com/miguelapol/api_uam_citas_medicas">API CITAS MEDICAS</a></p>
+<br>
 <h2>Crear Paciente</h2>
 <img src="https://user-images.githubusercontent.com/33709574/167510379-e00af8c9-ffb0-4aa7-9ece-83fc39331d6f.gif">
 <h2>Editar Paciente</h2>
